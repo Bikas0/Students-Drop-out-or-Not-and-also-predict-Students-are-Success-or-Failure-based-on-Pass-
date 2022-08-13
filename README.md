@@ -1,9 +1,11 @@
 # Students-Drop-out-or-Not-and-also-predict-Students-are-Success-or-Failure-based-on-Pass-
 
 
-RQ1: First i check student is dropout or not based on final_result. Here i use deep learning and as it's classification problem so i use here binary classification and use "Sigmoid" activation function which give us probability for continuous data. As sigmoid give output 1 when the probability equal 0.5 or greater than 0.5 otherwise it's give output 0. As we know that from df_dummies, there i saw 0 means students are fail and 1 means student is pass.
+RQ1: 
+  First i check student is dropout or not based on final_result. Here i use deep learning and as it's classification problem so i use here binary classification and use "Sigmoid" activation function which give us probability for continuous data. As sigmoid give output 1 when the probability equal 0.5 or greater than 0.5 otherwise it's give output 0. As we know that from df_dummies, there i saw 0 means students are fail and 1 means student is pass.
 
-RQ2. If student do not dropout that time i check studied_credits, and i consider HERE have to get 75% credit , whose student obtain 75% or more they are "Success otherwise Failure but they are not dropout".
+RQ2. 
+  If student do not dropout that time i check studied_credits, and i consider HERE have to get 75% credit , whose student obtain 75% or more they are "Success otherwise Failure but they are not dropout".
 
 [assessments.csv](https://github.com/Bikas0/Students-Drop-out-or-Not-and-also-predict-Students-are-Success-or-Failure-based-on-Pass-/files/9331268/assessments.csv)
 [courses.csv](https://github.com/Bikas0/Students-Drop-out-or-Not-and-also-predict-Students-are-Success-or-Failure-based-on-Pass-/files/9331269/courses.csv)
